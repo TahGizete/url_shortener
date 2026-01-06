@@ -2,15 +2,24 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the url_shortener project,
+install node.js from https://nodejs.org/en/download
+frontend
+1. Download and extract zip file from github,
+2. Open the folder on VS Code 
+3. Open terminal(view - terminal)
+4. run cd url_shortener(output - C:\Users\TAH\url-shortener>)
+5. run npm install (to install all dependencies)
+   - npm install express mongoose cors nanoid
+   - npm run dev to start the developement server
+Backend setup
+6. Download mongodb from https://www.mongodb.com/try/download/community and install
+7. Click on connections - create connections- enter project name(url_shortener)
+  To start Mongobd server,
+  run the following commanads on your terminal
+  - mongod
+  - node server.js
+  To run the react project
+  - npm run dev
+  click to follow link and test the url shortener
