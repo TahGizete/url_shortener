@@ -62,7 +62,7 @@ function App() {
       Open link in new tab ↗
     </a>
   </div>
-)}mongod
+)}
       </div>
     </div>
   );
